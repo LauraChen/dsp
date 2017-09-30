@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Nano seemed to be the easiest to use so I will probably start with that.
 
 --
 
@@ -89,6 +89,8 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I am most familiar with Sublime. I like the simple and clean interface. I've used Atom before but felt like it had too much stuff going on. 
+>>Sublime has some useful shortcuts like You can delete an entire line with COMMAND+SHIFT+K. 
+>> In Sublime, the settings are customizeable by editing the related JSON files.
 
- 
+
