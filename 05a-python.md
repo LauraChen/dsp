@@ -22,13 +22,21 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Both can be used to store data. Lists are ordered and can contain duplicate values. Sets are unordered and only store unique values. Sets would be more efficient at finding an element because they don't have to search sequentially.
 
+A list of numbers can contain duplicate values in a specified order:
+nums=[1,2,2,2,1,1]
+If you tried to store the same values as a set, it would discard the duplicates:
+nums={1,2}
+
 ---
 
 ### Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> Lambda allows you to write anonymous functions (aka functions that are unnamed).
+>> Lambda allows you to write anonymous functions (aka functions that are unnamed).  
+Example:
+lst=[-4,-2,0,1,5]
+sorted(lst,key=lambda x:x**2)
 
 ---
 
