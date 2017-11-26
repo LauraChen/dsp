@@ -54,9 +54,9 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >> result=list(filter(lambda x: x%2==0,nums))   
 
 >> Set comprehension example:  
->> a = {x for x in 'abracadabra' if x not in 'abc'}
+>> a = {x for x in 'abracadabra' if x not in 'abc'}  
 >> Dictionary comprehension example:  
->> d = {n: n**2 for n in range(5)}
+>> d = {n: n**2 for n in range(5)}  
 
 ---
 
