@@ -43,11 +43,20 @@ sorted(lst,key=lambda x:x**2)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions allow for construction of lists using specified definitions. For example: myList = [x**2 for x in range(10)]. You can accomplish similar funcionality using the 'map' and 'filter' functionalities. 'map' can be used to apply a function to each item in a list. 'filter' can be used to get items in a list which meet specific criteria. 
+>> List comprehensions allow for construction of lists using specified definitions. For example: myList = [x**2 for x in range(10)]. You can accomplish similar funcionality using the 'map' and 'filter' functionalities. 'map' can be used to apply a function to each item in a list. 'filter' can be used to remove items in a list which don't match a predicate.
 
->> Map example: 
+>> Map example:  
+>> nums=[1,2,3,4]  
+>> result=list(map(lambda x: x**2,nums))  
 
 >> Filter example:
+>> nums=[1,2,3,4]  
+>> result=list(filter(lambda x: x%2==0,nums))   
+
+>> Set comprehension example:  
+>> a = {x for x in 'abracadabra' if x not in 'abc'}
+>> Dictionary comprehension example:  
+>> d = {n: n**2 for n in range(5)}
 
 ---
 
@@ -62,7 +71,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937
 
 b.  
 ```
@@ -70,7 +79,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513
 
 c.  
 ```
@@ -78,7 +87,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
