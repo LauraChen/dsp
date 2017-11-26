@@ -20,8 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> Both can be used to store data. Lists are ordered and can contain duplicate values. Sets are unordered and only store unique values. Sets would be more efficient at finding an element because they don't have to search sequentially.
-
+>> Both can be used to store data. Lists are ordered and can contain duplicate values. Sets are unordered and only store unique values. Sets would be more efficient at finding an element because they don't have to search sequentially. 
 A list of numbers can contain duplicate values in a specified order:
 nums=[1,2,2,2,1,1]
 If you tried to store the same values as a set, it would discard the duplicates:
@@ -44,7 +43,11 @@ sorted(lst,key=lambda x:x**2)
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions allow for construction of lists using specified definitions. For example: myList = [x**2 for x in range(10)]. You can accomplish similar funcionality using the 'map' and 'filter' functionalities. 'map' can be used to apply a function to each item in a list. 'filter' can be used to get items in a list which meet specific criteria. 
+
+>> Map example: 
+
+>> Filter example:
 
 ---
 
